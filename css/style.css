@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container_gmc{
+    padding: 100px;
+}
+
+.container_gmc2{
+    padding: 10px 180px;
+}
+
+.login_layout{
+    width: 50%;
+    background-color: #262726;
+    color: #C7C0B5;
+}
+
+.login_form{
+    width: 90%;
+}
+
+.gomycode_o{
+    color: #f00;
+}
+.login_layout p{
+    color: #949788;
+}
+
+.slide_layout{
+    width: 50%;
+    background-color: #292A2A;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide_layout .logo{
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.slide_layout h3{
+     text-align: center;
+}
+
+.slide_layout p{
+     text-align: center;
+}
+.slide_layout img{
+    width: 300px;
+}
+.required{
+    color: #f00;
+}
+
+.input{
+    background-color: #333B49 !important;
+    border: 0.5px solid rgb(82, 82, 82) !important;
+    padding: 10px !important;
+}
+
+.btn-darken{
+    background-color: #242525 !important;
+    color: #2865CD !important;
+}
+
+.btn-darken:hover{
+    background-color: #444646 !important;
+    color: #2865CD !important;
+}
+
+.mybutton{
+    font-weight: bold !important;
+    padding: 10px !important;
+}
